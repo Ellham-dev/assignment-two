@@ -7,6 +7,7 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-red-500: oklch(63.7% 0.237 25.331);
     --color-gray-700: oklch(37.3% 0.034 259.733);
     --color-black: #000;
     --color-white: #fff;
@@ -327,6 +328,9 @@
   .mx-auto {
     margin-inline: auto;
   }
+  .my-\[15\.5\] {
+    margin-block: 15.5;
+  }
   .mt-\[2\] {
     margin-top: 2;
   }
@@ -353,6 +357,9 @@
   }
   .mb-\[2\] {
     margin-bottom: 2;
+  }
+  .mb-\[23px\] {
+    margin-bottom: 23px;
   }
   .mb-\[25\] {
     margin-bottom: 25;
@@ -417,6 +424,9 @@
   .w-\[287px\] {
     width: 287px;
   }
+  .w-\[644px\] {
+    width: 644px;
+  }
   .w-full {
     width: 100%;
   }
@@ -444,6 +454,9 @@
   .max-w-\[570px\] {
     max-width: 570px;
   }
+  .max-w-\[644px\] {
+    max-width: 644px;
+  }
   .max-w-\[753px\] {
     max-width: 753px;
   }
@@ -452,6 +465,12 @@
   }
   .max-w-\[1140px\] {
     max-width: 1140px;
+  }
+  .max-w-\[1440\] {
+    max-width: 1440;
+  }
+  .max-w-\[1440px\] {
+    max-width: 1440px;
   }
   .max-w-\[px\] {
     max-width: px;
@@ -575,11 +594,20 @@
   .bg-\[\#00000080\] {
     background-color: #00000080;
   }
+  .bg-\[\#07334F66\] {
+    background-color: #07334F66;
+  }
+  .bg-\[\#07334F\] {
+    background-color: #07334F;
+  }
   .bg-\[\#E95A08\] {
     background-color: #E95A08;
   }
   .bg-\[\#\] {
     background-color: #;
+  }
+  .bg-red-500 {
+    background-color: var(--color-red-500);
   }
   .bg-white {
     background-color: var(--color-white);
@@ -599,6 +627,12 @@
   .px-20 {
     padding-inline: calc(var(--spacing) * 20);
   }
+  .px-\[53\.5px\] {
+    padding-inline: 53.5px;
+  }
+  .px-\[53\] {
+    padding-inline: 53;
+  }
   .py-1 {
     padding-block: calc(var(--spacing) * 1);
   }
@@ -616,6 +650,18 @@
   }
   .py-9 {
     padding-block: calc(var(--spacing) * 9);
+  }
+  .py-\[15\.5\] {
+    padding-block: 15.5;
+  }
+  .py-\[15\.5px\] {
+    padding-block: 15.5px;
+  }
+  .py-\[16px\] {
+    padding-block: 16px;
+  }
+  .py-\[18px\] {
+    padding-block: 18px;
   }
   .py-\[19px\] {
     padding-block: 19px;
@@ -658,6 +704,9 @@
   }
   .text-\[40px\] {
     font-size: 40px;
+  }
+  .text-\[50\%\] {
+    font-size: 50%;
   }
   .text-\[50px\] {
     font-size: 50px;
